@@ -15,7 +15,7 @@ body {
     max-width: 970px;
     padding: 0 10px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 18px;
 }
 
@@ -149,15 +149,20 @@ img{
 
 /* About */
 
-.container {
+.container-grey{
+    margin: 0 auto;
+    max-width: 970px;
+    padding: 0 10px;
+    font-family: 'Roboto', sans-serif;
 }
+
 .about {
     background-color: rgb(246, 246, 246);
     height: 550px;
     text-align: center;
     padding: 57px 83px 98px 83px;
+    font-weight: 700;
     font-size: 18px;
-    font-weight: 500;
 }
 .about-title {
     font-size: 34px;
@@ -166,8 +171,6 @@ img{
 }
 .about-subtitle-ru {
     margin: 0 0 15px 0;
-    font-size: 18px;
-    font-weight: 500;
 }
 .about-description-ru {
     margin: 0 0 16px 0;
@@ -185,4 +188,37 @@ img{
 .about-description {
     margin: 20px 0 0 0;
     text-align: justify;
+}
+
+@media(max-width: 480px){
+    
+    .container-grey{
+        max-width: 375px;
+        font-size: 14px;
+        margin: 78px auto 0 auto;
+        padding: 0;
+    }
+    .about {
+        padding: 0 27px 0 31px;
+        height: 654px;
+        display: block;
+        font-size: 14px;
+    }
+    .about-title {
+        padding: 52px 0 0 0;
+    }
+    .about-description-ru {
+        margin: 30px 0 30px 0;
+    }
+    .divider {
+        max-width: 300px;
+
+    }
+    .about-subtitle {
+        margin: 30px 0 25px 0;
+    }
+    .about-description {
+        margin: 0px 0 64px 0;
+    }
+
 }
