@@ -6,7 +6,6 @@
 
 body {
     max-width: 1445px;
-    height: 5400px;
     margin: 0 auto;
 }
 
@@ -151,13 +150,14 @@ img{
 
 .container-grey{
     margin: 0 auto;
-    max-width: 970px;
+    max-width: 1445px;
     padding: 0 10px;
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(246, 246, 246);
 }
 
 .about {
-    background-color: rgb(246, 246, 246);
+    max-width: 950px;
     height: 550px;
     text-align: center;
     padding: 57px 83px 98px 83px;
@@ -225,13 +225,11 @@ img{
 
 /* History */
 
-.history {
-   height: 944px; 
-}
 .history-title {
     text-align: center;
     font-size: 34px;
     margin: 65px 0 73px 0; 
+    
 }
 
 figcaption{
@@ -249,4 +247,24 @@ figcaption{
      figcaption{
          margin: 33px 0 79px 0;
      } 
+}
+
+.portfolio {
+    background-color: rgb(246, 246, 246);
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.portfolio-title {
+    font-size: 34px;
+    padding: 80px 0 76px 0;
+}
+
+.portfolio-img-sign{
+    margin: 40px 0 95px 0;
+}
+.portfolio-img-sign:last-of-type{
+    padding-bottom: 107px;
+    margin-bottom: 0;
 }
