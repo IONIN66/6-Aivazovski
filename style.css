@@ -18,6 +18,16 @@ body {
     font-size: 18px;
 }
 
+.container-grey{
+    margin: 0 auto;
+    max-width: 1445px;
+    padding: 0 10px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    justify-content: center;
+}
+
 /* header */
 
 .header{
@@ -148,14 +158,6 @@ img{
 
 /* About */
 
-.container-grey{
-    margin: 0 auto;
-    max-width: 1445px;
-    padding: 0 10px;
-    font-family: 'Roboto', sans-serif;
-    background-color: rgb(246, 246, 246);
-}
-
 .about {
     max-width: 950px;
     height: 550px;
@@ -197,6 +199,8 @@ img{
         font-size: 14px;
         margin: 78px auto 0 auto;
         padding: 0;
+        display: flex;
+        justify-content: center;
     }
     .about {
         padding: 0 27px 0 31px;
