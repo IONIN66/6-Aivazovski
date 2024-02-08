@@ -410,6 +410,7 @@ figcaption{
     font-size: 34px;
     font-weight: 700;
     translate: 100% 0;
+    transition: all.33s;
 }
 .mobile-nav-list {
     padding: 60px 0 0 26px;
@@ -426,7 +427,6 @@ figcaption{
     position: absolute;
     top: 65px;
     right: 34px;
-
 }
 
 @media(max-width: 480px){
