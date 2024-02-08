@@ -301,4 +301,77 @@ figcaption{
         max-height: 206px;
     }
 }
+/* Contacts */
 
+.contacts {
+    padding: 56px 0 63px 0;
+    text-align: center;
+}
+
+.contacts-tittle {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.contacts-button {
+    background-color: #070707;
+    color: white;
+    width: 211px;
+    height: 42px;
+    border-radius: 20px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+    margin: 81px 0 75px 0;
+}
+
+.contacts-button:hover{
+    opacity: 0.7;
+}
+
+.contacts-socials {
+    margin: 0 0 131px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.contacts-socials-icon {
+    width: 65px;
+    height: 65px;
+    fill:#070707;
+}
+
+.contacts-socials-icon:hover {
+    fill:#828282;
+}
+
+@media(max-width: 480px){
+    .contacts {
+        padding: 60px 0 202px 0;
+    }
+    
+    .contacts-tittle {
+        font-size: 34px;
+        font-weight: 700;
+    }
+    
+    .contacts-button {
+        margin: 75px 0 41px 0;
+    }
+    
+    .contacts-button:hover{
+        opacity: 0.7;
+    }
+    
+    .contacts-socials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin: 0;
+    }
+
+}
